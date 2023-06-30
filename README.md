@@ -29,7 +29,9 @@ Bootstrapping was used to estimate the mean and confidence interval of the 'Tota
 Linear Model Selection and Regularization: Ridge regression and Lasso regression are regularization techniques used to prevent overfitting in linear regression models. Ridge regression introduces a penalty term to shrink the coefficients, while Lasso regression pertorms both coefficient shrinkage and feature selection. In this project, both techniques were used to select the best hyperparameters and assess the models' performance in predicting future sales.
 Moving Beyond Linearity: Polynomial regression, piecewise cubic spline, and piecewise linear spline were employed to capture non-linear relationships between variables. Polynomial regression allowed for fitting higher degree polynomial functions, while piecewise cubic spline and piecewise linear spline aimed to capture non-linear patterns and changes in the relationship between variables.
 
-# CONCLUSION
+# CHAPTER 4
+
+## CONCLUSION
 
 In this project, we conducted a statistical analysis and predictive modeling on a supermarket sales dataset. The goal was to forecast supermarket sales and gain insights that can boost sales. The project involved various steps and methodologies.
 
