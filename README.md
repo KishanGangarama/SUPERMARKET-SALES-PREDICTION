@@ -31,11 +31,16 @@ Moving Beyond Linearity: Polynomial regression, piecewise cubic spline, and piec
 
 # CONCLUSION
 
-In this project, we conducted a comprehensive analysis of a dataset containing information about supermarket sales. Our goal was to identify the variables that have the greatest impact on supermarket sales and develop a predictive model to forecast sales growth.
-We started by exploring and visualizing the data, examining various factors such as customer demographics, product line, and payment methods. We performed statistical tests including t-test, ANOVA, and chi-square to determine if there were any significant differences in sales across different customer groups and cities.
-The results of our analysis revealed that gender and city did not have a significant relationship with total sales. Additionally, there was no statistically significant relationship between gender and customer type.
-We then applied machine learning techniques such as linear regression, ridge regression, and lasso regression to predict future sales. The linear regression model showed a perfect fit with an extremely low mean squared error, indicating its ability to predict the total sales accurately. Among the regularization models, the Lasso regression model performed better, explaining around 88.44% of the variance in the target variable.
-Furthermore, we explored non-linear relationships using polynomial regression, piecewise cubic spline, and piecewise linear spline. The results indicated that a polynomial degree of 8 or less was the best choice, and there was a positive correlation between gross income and total sales.
-Overall, our analysis can provide valuable insights for stakeholders in the supermarket industry. We discovered that gender and city were not significant factors affecting sales, while customer type had no association with gender. Our predictive models can assist in forecasting future sales, and the non-linear analysis revealed the nature of the relationship between gross income and total sales.
-By leveraging these findings, supermarkets can make data-driven decisions to optimize their business strategies, improve customer satisfaction, and boost sales growth in a highly competitive market.
+In this project, we conducted a statistical analysis and predictive modeling on a supermarket sales dataset. The goal was to forecast supermarket sales and gain insights that can boost sales. The project involved various steps and methodologies.
 
+First, in the data exploration and visualization phase, we examined the dataset and visualized key information using charts and plots. We analyzed customer types, product lines by gender, unit price distribution, and the relationship between quantity and total sales. These visualizations helped us understand the data and identify potential patterns.
+
+Next, we applied statistical tests such as t-test, ANOVA, and chi-square to explore relationships and differences within the dataset. The t-test revealed a significant relationship between gender and total sales, indicating that gender can be a good predictor of sales. However, the ANOVA test did not find a significant difference in sales across different cities. The chi-square test showed no significant relationship between gender and customer type.
+
+We also employed machine learning techniques, including linear regression, to predict future sales. The linear regression model demonstrated excellent performance, with a high R-squared value indicating a strong fit to the data. This suggests that the model is capable of accurately predicting the total sales based on the given features.
+
+Furthermore, we utilized resampling methods such as bootstrapping and cross-validation to evaluate the performance and reliability of our predictive models. These methods provided insights into the overall sales and assessed the accuracy and reliability of the models.
+
+Additionally, we explored advanced techniques such as linear model selection and regularization, as well as non-linear regression methods like polynomial regression and piecewise splines. These approaches allowed us to capture complex relationships and improve the models' predictive capabilities.
+
+In conclusion, this project successfully analyzed the supermarket sales dataset, identified significant variables impacting sales, and developed predictive models to forecast future sales. The findings and insights obtained from this analysis can help supermarkets better understand their customers and make data-driven decisions to improve sales and customer satisfaction.
