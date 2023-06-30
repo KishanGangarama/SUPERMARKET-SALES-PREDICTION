@@ -20,14 +20,25 @@ The growth of supermarkets in most populated cities are increasing and market co
 
 ## METHODOLOGY
 
-T-Test: The t-test is a statistical test used to compare the means of two groups and determine if they are significantly different from each other. In this project, a t-test was performed to compare two samples and assess if there was a significant difference in total sales based on gender.
+### T-Test: 
+The t-test is a statistical test used to compare the means of two groups and determine if they are significantly different from each other. In this project, a t-test was performed to compare two samples and assess if there was a significant difference in total sales based on gender.
 ANOVA: Analysis of Variance (ANOVA) is a statistical test used to determine if there are significant differences between the means of three or more groups. In this project, an ANOVA test was conducted to examine the relationship between city and total sales. The goal was to determine if there was a significant difference in total sales across different cities.
-Chi-Square: Chi-Square test is used to analyze the association between categorical variables. In this project, a chi-square test was employed to evaluate if there was a significant relationship between gender and customer type.
-Linear Regression: Linear regression is a statistical technique used to model the relationship between a dependent variable and one or more independent variables. In this project, linear regression was applied to assess the relationship between various factors (such as gender) and the total sales. The analysis aimed to determine if gender was a good predictor of total sales.
-Resampling Methods: Resampling methods such as bootstrapping and cross-validation were employed to assess the performance and reliability of the predictive models.
+
+### Chi-Square: 
+Chi-Square test is used to analyze the association between categorical variables. In this project, a chi-square test was employed to evaluate if there was a significant relationship between gender and customer type.
+
+### Linear Regression: 
+Linear regression is a statistical technique used to model the relationship between a dependent variable and one or more independent variables. In this project, linear regression was applied to assess the relationship between various factors (such as gender) and the total sales. The analysis aimed to determine if gender was a good predictor of total sales.
+
+### Resampling Methods: 
+Resampling methods such as bootstrapping and cross-validation were employed to assess the performance and reliability of the predictive models.
 Bootstrapping was used to estimate the mean and confidence interval of the 'Total' column, providing insights into the overall sales. Cross-validation analysis was performed to evaluate the goodness of fit of the model, using R2 scores to assess its accuracy and reliability.
-Linear Model Selection and Regularization: Ridge regression and Lasso regression are regularization techniques used to prevent overfitting in linear regression models. Ridge regression introduces a penalty term to shrink the coefficients, while Lasso regression pertorms both coefficient shrinkage and feature selection. In this project, both techniques were used to select the best hyperparameters and assess the models' performance in predicting future sales.
-Moving Beyond Linearity: Polynomial regression, piecewise cubic spline, and piecewise linear spline were employed to capture non-linear relationships between variables. Polynomial regression allowed for fitting higher degree polynomial functions, while piecewise cubic spline and piecewise linear spline aimed to capture non-linear patterns and changes in the relationship between variables.
+
+### Linear Model Selection and Regularization: 
+Ridge regression and Lasso regression are regularization techniques used to prevent overfitting in linear regression models. Ridge regression introduces a penalty term to shrink the coefficients, while Lasso regression pertorms both coefficient shrinkage and feature selection. In this project, both techniques were used to select the best hyperparameters and assess the models' performance in predicting future sales.
+
+### Moving Beyond Linearity: 
+Polynomial regression, piecewise cubic spline, and piecewise linear spline were employed to capture non-linear relationships between variables. Polynomial regression allowed for fitting higher degree polynomial functions, while piecewise cubic spline and piecewise linear spline aimed to capture non-linear patterns and changes in the relationship between variables.
 
 # CHAPTER 4
 
